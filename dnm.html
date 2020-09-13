@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset=utf-8 />
+	<title>JS Bin</title>
+	<style>
+		body {padding-top:50px}
+	</style>
+</head>
+
+<body>
+	
+
+	<script>
+
+		var number = [4, 5, 1, 3, 2, 10];
+		var first = 0;
+		var last = number.length - 1;
+
+		while (first < last) {
+			var b = number[first];
+			number[last] = b;
+			first++;
+			last--;
+		}
+		document.write(number);
+
+
+	</script>
+
+</body>
+
+</html>
