@@ -20,6 +20,7 @@
 
 		while (first < last) {
 			var b = number[first];
+			number[first] = number[last];
 			number[last] = b;
 			first++;
 			last--;
