@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+
+    <p> Bài 1: Viết một chương trình Javascript để nối tất cả các phần tử trong một mảng chuỗi lại với nhau. Ví dụ có mảng chuỗi như sau: myColor = ["Red", "Green", "White", "Black"];<br>
+        Sau khi thực thi chương trình sẽ trả về dạng như sau : <br>
+
+    "Red,Green,White,Black"</p>
+
+    <button type="button" onclick="noichuoi()">Click Me!</button>
+    <p id="demo"></p>
+
+    <script type="text/javascript">
+        function noichuoi() {
+            var myColor = ["Red","Green","White","Black"];
+            var x = document.getElementById("demo");
+            x.innerHTML = myColor.join();
+        }
+    </script>
+
+
+    <p>Bài 2: Viết một chương trình nhận một số nhập vào và chèn dấu (-) giữa 2 số chẵn. Ví dụ nếu bạn nhập vào 025468 thì kết quả của chương trình sẽ là 0-254-6-8.</p>     
+
+    <input type="text" id="number">
+    <button type="button" onclick="chendau()">Click Me!</button>
+    <p id="demo1"></p>
+
+    <script>
+
+        function chendau() {
+            var value = document.getElementById("number").value;
+            var chuoi = value.toString();
+            var element_1 = [chuoi[0]];
+            for(var i=1; i<chuoi.length;i++) {
+                if(chuoi[i-1] %2 === 0 && chuoi[i] % 2 ===0) {
+                    element_1.push("-",chuoi[i]);
+                } else {
+                    element_1.push(chuoi[i]);
+                }
+            }
+            document.getElementById("demo1").innerHTML = element_1.join(''); 
+        }
+
+    </script>
+
+    <p>Bài 3: Viết một chương trình nhập vào một chuỗi và chuyển các ký tự chữ thường trong chuỗi vừa nhập sang thành dạng chữ hoa. Ví dụ: nếu bạn nhập vào chuỗi 'The Quick Brown Fox' kết quả của chương trình là 'tHE qUICK bROWN fOX'.</p>
+
+    <input type="text" id="chuoi">
+    <button id="button" onclick="chuyenchu()">Click Me!</button>
+    <p id="demo2"></p>
+
+    <script type="text/javascript">
+        function chuyenchu() {
+
+            var str = document.getElementById("chuoi").value;
+            var UPPER = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+            var LOWER = 'abcdefghijklmnopqrstuvwxyz';
+            var result = [];
+
+            for(var x=0; x<str.length; x++)
+            {
+                if(UPPER.indexOf(str[x]) !== -1)
+                {
+                    result.push(str[x].toLowerCase());
+                }
+                else if(LOWER.indexOf(str[x]) !== -1)
+                {
+                    result.push(str[x].toUpperCase());
+                }
+            else 
+                {
+                    result.push(str[x]);
+                }
+            }
+            document.getElementById("demo2").innerHTML = result.join('');
+        }
+
+
+  </script>
+
+</body>
+</html>
