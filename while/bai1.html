@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+	<hr id="name" style="width: 50px; border: 1px solid red;">
+ 
+	<script>
+		// var num=document.getElementById("name").style.width;
+		var i=1;
+		while(i < 100 ) {
+			var num = document.getElementById("name").style.width = i + "px";
+			break;
+			i++;
+			
+		}
+		document.write(num);
+	</script>
+
+</body>
+</html>	
