@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: tahoma, arial, sans-serif, "lucida grande";
+}
+a {
+  text-decoration: none;
+  color: #696969;
+}
+p {
+  font-size: 18px;
+}
+a:hover,
+a:hover p {
+  color: #818753;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+  /* border: 1px solid red; */
+}
+
+/* Menu */
+.toggle-menu {
+  display: none;
+}
+.toggle-menu img {
+  width: 50px;
+  height: 50px;
+}
+.menu {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.menu ul li {
+  display: inline-block;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+.menu ul li:hover a {
+  color: red;
+}
+
+/* SLICE */
+.slice {
+  margin-top: 30px;
+  position: relative;
+  height: 500px;
+}
+.slice img {
+  width: 100%;
+  height: 100%;
+}
+
+/* BANNER */
+.banner {
+  margin-top: 20px;
+}
+.bannerLeft {
+  width: 57%;
+  height: 590px;
+  margin-right: 3%;
+  float: left;
+  background-image: url("../images/banner_3.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.bannerRight {
+  width: 40%;
+  height: 700px;
+  float: left;
+  background-image: url("../images/banner_4.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.textL {
+  position: absolute;
+  left: 440px;
+  bottom: 75px;
+  font-size: 60px;
+  color: #464444;
+}
+.view1 {
+  position: absolute;
+  bottom: 50px;
+  left: 440px;
+  text-transform: uppercase;
+}
+.textR {
+  position: absolute;
+  left: 30px;
+  top: 155px;
+  font-size: 60px;
+  color: #464444;
+}
+.view2 {
+  position: absolute;
+  top: 310px;
+  left: 30px;
+  text-transform: uppercase;
+}
+
+/* CONTENT */
+#title {
+  margin-bottom: 40px;
+  margin-top: 20px;
+  font-size: 40px;
+}
+.layer2 {
+  width: 100%;
+}
+.layer2 .products {
+  width: 22%;
+  float: left;
+  margin-left: 4%;
+}
+.products-1 {
+  width: 22%;
+  float: left;
+}
+.products img {
+  width: 100%;
+}
+
+.products-1 img {
+  width: 100%;
+}
+.products,
+.products-1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.products p,
+.products-1 p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+.products a,
+.products-1 a {
+  color: white;
+  padding: 20px 40px;
+  background: darkblue;
+  margin-top: 150px;
+  border-radius: 40px;
+}
+.price {
+  color: blueviolet;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.products a:hover,
+.products-1 a:hover {
+  background: red;
+}
+
+/* tmanner 2 */
+.banne2 {
+  margin-top: 50px;
+}
+.banner3 {
+  width: 48%;
+  float: left;
+}
+.banner4 {
+  width: 48%;
+  float: left;
+  padding-left: 4%;
+}
+
+.banner4 img,
+.banner3 img {
+  width: 100%;
+}
+
+/* FOOTER */
+
+.about {
+  width: 50%;
+  float: left;
+  padding-top: 50px;
+}
+.about h2 {
+  margin-bottom: 20px;
+  padding-left: 40px;
+}
+
+.about #left {
+  width: 70px;
+  height: 38px;
+  margin-top: 15px;
+  margin-right: 20px;
+  float: left;
+}
+.about #right {
+  font-size: 15px;
+  width: 245px;
+  color: #6c6666;
+  float: left;
+  padding-left: 20px;
+}
+.contact {
+  width: 50%;
+  float: left;
+  padding-top: 50px;
+}
+.contact h2 {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+.contact p {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #6c6666;
+}
+.contact span {
+  font-size: 20px;
+  font-weight: bold;
+}
+.link {
+  width: 100%;
+  float: left;
+  background: black;
+  margin-top: 30px;
+}
+.link p {
+  font-size: 16px;
+  margin-top: 45px;
+  color: #6c6666;
+  margin: 40px 0;
+  text-align: center;
+}
+
+.thanhtoan {
+  padding: 3px 10px;
+  background: blue;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+.in {
+  padding: 6px 10px;
+  background: blue;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}

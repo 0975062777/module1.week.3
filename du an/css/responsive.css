@@ -1,0 +1,102 @@
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .btn-1 {
+    font-size: 10px;
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .bannerLeft {
+    height: 400px;
+  }
+  .bannerRight {
+    height: 500px;
+  }
+  .textR {
+    font-size: 30px;
+  }
+  .view2 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .layer2 .products,
+  .layer2 .products-1 {
+    width: 44%;
+    margin-top: 50px;
+  }
+  .products-1 {
+    margin-left: 4%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .toggle-menu {
+    display: block;
+    float: left;
+  }
+  .menu ul {
+    display: none;
+  }
+  .menu ul li {
+    float: none;
+    width: 100%;
+    background: black;
+    border: 1px solid white;
+  }
+  .menu ul li:hover {
+    background: white;
+  }
+  .menu:hover ul {
+    display: block;
+  }
+  .contact,
+  .about {
+    width: 100%;
+  }
+  .contact p {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .slice .left {
+    top: 100px;
+  }
+  .bannerLeft {
+    height: 200px;
+  }
+  .bannerRight {
+    height: 300px;
+  }
+  .textR {
+    top: 70px;
+    font-size: 20px;
+  }
+  .view2 {
+    font-size: 10px;
+    top: 150px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .slice .left {
+    top: 50px;
+  }
+  .slice .left h2 {
+    font-size: 20px;
+  }
+  .left p {
+    font-size: 14px;
+  }
+  .slice .left {
+    width: 220px;
+  }
+}
